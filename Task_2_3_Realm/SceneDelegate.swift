@@ -27,6 +27,7 @@ class SceneDelegate: UIResponder, UIWindowSceneDelegate {
         tabBarController.viewControllers = [randomCitationVC,listVC, categoryVC]
         window?.rootViewController = tabBarController
         window?.makeKeyAndVisible()
+        print("test branch")
     }
     
     func sceneDidDisconnect(_ scene: UIScene) {
